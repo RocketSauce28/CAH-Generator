@@ -1,4 +1,4 @@
-<?php
+it<?php
 setlocale(LC_CTYPE, "UTF8", "en_US.utf8");
 
 // Quick and dirty way to run on the command line for testing
@@ -26,8 +26,8 @@ if ($_POST['card-color'] == 'black') {
 }
 
 switch ($_POST['icon']) {
-	case "groupChatIcon":
-		$icon = 'Group Chat Icon-';
+	case "reddit":
+		$icon = 'reddit-';
 		break;
 	case "maple":
 		$icon = 'canada-';
