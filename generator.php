@@ -26,8 +26,8 @@ if ($_POST['card-color'] == 'black') {
 }
 
 switch ($_POST['icon']) {
-	case "reddit":
-		$icon = 'reddit-';
+	case "groupChatIcon":
+		$icon = 'Group Chat Icon-';
 		break;
 	case "maple":
 		$icon = 'canada-';
